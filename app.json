@@ -1,0 +1,34 @@
+{
+    "name": "SYNAX",
+    "logo": "http://telegra.ph/file/da67bb071fac5b01a5c8d.jpg",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "PythonX",
+        "SpamBots"
+    ],
+    "repository": "https://github.com/synax10/WAIFU-HUSBANDO-CATCHER",
+    "env": {
+      "OWNER_ID": {
+        "description": "WRITE OWNER ID",
+        "value": "",
+        "required": true
+      },
+      "mongo_url": {
+        "description": "wirte mongo db",
+        "value": "",
+        "required": true
+      },
+      "BOT_USERNAME": {
+        "description": "write bot username",
+        "value": "",
+        "required": true
+      }
+    },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
